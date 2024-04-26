@@ -1,19 +1,16 @@
-const primo = prompt("scrivi qualcosa");
-const secondo = prompt("scrivi qualcosa");
 
-if (primo.length > secondo.length){
-    console.log(primo)
-    console.log(secondo)
-}
-else {
-    console.log(secondo)
-    console.log(primo)
-}
+// **********************************************ESERCIZIO 1********************************************************************
+// const primo = prompt("scrivi qualcosa");
+// const secondo = prompt("scrivi qualcosa");
 
-
-
-
-
+// if (primo.length > secondo.length){
+//     console.log(primo)
+//     console.log(secondo)
+// }
+// else {
+//     console.log(secondo)
+//     console.log(primo)
+// }
 
 // *************************************************ESERCIZIO 2**********************************************************************
 // const one=prompt ("inserisci un numero");
@@ -32,3 +29,11 @@ else {
 // console.log(results);
 
 // document.getElementById("title").innerHTML=(`La somma è:` + results)
+
+// ************************************************ESERCIZIO 3*******************************************************************
+let base = 2;
+
+
+for (let esponente = 2; esponente < 1000; esponente++){
+    console.log(base * esponente);
+}
