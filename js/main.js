@@ -1,4 +1,3 @@
-
 // **********************************************ESERCIZIO 1********************************************************************
 // const primo = prompt("scrivi qualcosa");
 // const secondo = prompt("scrivi qualcosa");
@@ -31,9 +30,28 @@
 // document.getElementById("title").innerHTML=(`La somma è:` + results)
 
 // ************************************************ESERCIZIO 3*******************************************************************
-let base = 2;
+// let base = 2;
 
 
-for (let esponente = 2; esponente < 1000; esponente++){
-    console.log(base * esponente);
+// for (let esponente = 2; esponente < 1000; esponente++){
+//     console.log(base * esponente);
+// }
+
+// *****************************************************ESERCIZIO 4************************************************************
+
+// let n = prompt("scrivi un numero");
+
+// console.log(n * n * n);
+
+// ******************************************************ESERCIZIO 5*********************************************************
+
+// ****************************************************ESERCIZIO 6************************************************************
+
+let i = prompt("scrivi un numero");
+let n = 42
+
+while (i != n) {
+    i = prompt("scrivi un numero");
 }
+
+alert("sei un grande")
